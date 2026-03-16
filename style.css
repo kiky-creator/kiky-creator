@@ -44,9 +44,20 @@ h2{
     margin-top:15px;
     border-radius:8px;
 }
+.portfolio-footer {
+    background-color: #f5f5f5;   
+    padding: 20px 0;             /* top & bottom spacing */
+    text-align: center;           /* center the text */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
 
-footer{
-    text-align:center;
-    padding:20px;
-    background:#061c32;
+.portfolio-footer a {
+    color: #0366d6;              /* GitHub-style blue link */
+    text-decoration: none;       /* remove underline */
+}
+
+.portfolio-footer a:hover {
+    text-decoration: underline;  /* underline on hover */
 }
